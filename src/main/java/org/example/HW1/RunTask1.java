@@ -32,19 +32,31 @@ public final class RunTask1 {
 
         PrintCommodities(categories);
 
-        ArrayList<Commodity> basket_commodities = new ArrayList<>();
-        basket_commodities.add(soap);
-        Basket basket = new Basket(basket_commodities);
+        ArrayList<Commodity> basket_commodities1 = new ArrayList<>();
+        basket_commodities1.add(soap.Take(25));
+        Basket basket1 = new Basket(basket_commodities1);
+
+        User user1 = new User("User1", "password", basket1);
 
         System.out.println();
-        for (Commodity com: basket_commodities) {
-            System.out.println("Добавили в корзину " + com.getName() + " - " + com.getCount() + " шт.");
-        }
-        System.out.println();
+        PrintUsersBasket(user1);
 
-        basket.Buy(categories);
+        ArrayList<Commodity> basket_commodities2 = new ArrayList<>();
+        basket_commodities2.add(toothpaste.Take(10));
+        Basket basket2 = new Basket(basket_commodities2);
+
+        User user2 = new User("User1", "password", basket2);
+
+        PrintUsersBasket(user2);
+        System.out.println();
 
         PrintCommodities(categories);
+    }
+
+    public static void PrintUsersBasket(User user){
+        for (Commodity com: user.getBasket().getBasketCommodities()) {
+            System.out.println("В корзину покупателя " + user.getLogin() + " добавили " + com.getName() + " - " + com.getCount() + " шт.");
+        }
     }
 
     public static void PrintCommodities(ArrayList<Category> categories){

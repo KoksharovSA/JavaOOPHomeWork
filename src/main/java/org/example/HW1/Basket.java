@@ -12,16 +12,4 @@ import java.util.ArrayList;
 @ToString
 public class Basket {
     private ArrayList<Commodity> basketCommodities;
-    public void Buy(ArrayList<Category> categories) {
-        for (Category cat: categories) {
-            for (Commodity com: cat.getCommodities()) {
-                if (basketCommodities.contains(com)) {
-                    Commodity temp = basketCommodities.stream().filter(x->x.getName() == com.getName()).findFirst().orElse(null);
-                    if(temp != null) {
-                        com.setCount(com.getCount() - temp.getCount());
-                    }
-                }
-            }
-        }
-    }
 }
