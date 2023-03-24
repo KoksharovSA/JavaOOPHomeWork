@@ -4,16 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ecc683-1886-4295-9aab-e20224b830f0" name="Changes" comment="Ready 2 home work.">
+    <list default="true" id="88ecc683-1886-4295-9aab-e20224b830f0" name="Changes" comment="Ready 3 home work.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW3/Impl/AbstractGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW3/Impl/AbstractGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW3/Impl/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW3/Impl/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW3/Impl/Logger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW3/Impl/Logger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -117,7 +120,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679158993438</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Ready 3 home work.">
+      <created>1679242383881</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1679242383881</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -136,7 +146,8 @@
     <MESSAGE value="Ready first home work." />
     <MESSAGE value="Code refactoring first home work." />
     <MESSAGE value="Ready 2 home work." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready 2 home work." />
+    <MESSAGE value="Ready 3 home work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ready 3 home work." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
