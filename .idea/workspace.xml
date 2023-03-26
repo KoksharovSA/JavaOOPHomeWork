@@ -4,29 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ecc683-1886-4295-9aab-e20224b830f0" name="Changes" comment="Ready 5 home work.">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="88ecc683-1886-4295-9aab-e20224b830f0" name="Changes" comment="Refactor 5 home work.">
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW5/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW5/Controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW5/RunTask5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/DataService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/DataServiceInteiface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/Group.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/GroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/GroupServiceInteiface.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/Student.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/StudyGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/StudyGroup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/StudyGroupService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/StudyGroupService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/Teatcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/Teatcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW5/Model/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW5/View/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW5/View/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/HW6/README.MD" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/HW6/README.MD" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HW5/Controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HW5/Controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HW5/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HW5/Model/DataService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HW5/Model/Group.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HW5/Model/Group.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HW5/Model/GroupService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HW5/Model/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HW5/Model/Student.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HW5/Model/StudyGroupService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HW5/Model/StudyGroupService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HW5/Model/Teatcher.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HW5/Model/Teatcher.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/HW5/Model/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/HW5/Model/UserService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -197,7 +177,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679739856718</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Refactor 5 home work.">
+      <created>1679820658480</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1679820658480</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Refactor 5 home work.">
+      <created>1679820901441</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1679820901441</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -221,7 +215,8 @@
     <MESSAGE value="Started 4 home work." />
     <MESSAGE value="Started 5 home work." />
     <MESSAGE value="Ready 5 home work." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready 5 home work." />
+    <MESSAGE value="Refactor 5 home work." />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor 5 home work." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
