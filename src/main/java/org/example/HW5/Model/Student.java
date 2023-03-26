@@ -4,8 +4,8 @@ import java.util.Date;
 import java.util.List;
 
 public class Student extends User{
-    int groupId;
-    List<Integer> grade;
+    private int groupId;
+    private List<Integer> grade;
 
     @Override
     public String toString() {

@@ -7,22 +7,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Controller {
-    public Controller() {
-        ls = new ArrayList<>();
-    }
-    User teatcher;
-    List<User> ls;
-
-    public void setTeatcher(User teatcher) {
-        this.teatcher = teatcher;
-    }
-
-    public void setLs(List<User> ls) {
-        this.ls = ls;
-    }
-    public Group AgregateGroup() {
-        GroupService groupService = new StudyGroupService();
-        Group studyGroup = groupService.CreateStudyGroup(teatcher, ls);
+    public StudyGroup readDataStudyGroup(User headGroup, List<User> sudents){
+        StudyGroupService studyGroupService = new StudyGroupService();
+        StudyGroup studyGroup = studyGroupService.CreateStudyGroup(headGroup, sudents);
         return studyGroup;
     }
 }

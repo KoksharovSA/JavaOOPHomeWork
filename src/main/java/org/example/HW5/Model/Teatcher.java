@@ -4,8 +4,8 @@ import java.util.Date;
 import java.util.List;
 
 public class Teatcher extends User {
-    int exp;
-    List<Integer> group;
+    private int exp;
+    private List<Integer> group;
 
     @Override
     public String toString() {

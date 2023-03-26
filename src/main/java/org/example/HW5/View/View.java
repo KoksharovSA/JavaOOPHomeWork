@@ -5,7 +5,7 @@ import org.example.HW5.Model.User;
 
 import java.util.List;
 
-public class View {
+public class View implements ViewInterface{
     public StringBuilder UserView (Group group){
         StringBuilder result = new StringBuilder();
         result.append(group.getHeadGroup().toString());
@@ -13,5 +13,9 @@ public class View {
             result.append(us.toString());
         }
         return result;
+    }
+    @Override
+    public void Show (StringBuilder stringGroup){
+        System.out.println(stringGroup);
     }
 }
