@@ -9,6 +9,17 @@ public class Complex {
         this.image = image;
     }
 
+    @Override
+    public String toString() {
+        if (this.getImage() > 0) {
+            return (this.getReal() + " + " + this.getImage() + "i");
+        } else if (this.getImage() < 0) {
+            return (this.getReal() + "" + this.getImage() + "i");
+        } else {
+            return ("" + this.getReal());
+        }
+    }
+
     public double getReal() {
         return real;
     }

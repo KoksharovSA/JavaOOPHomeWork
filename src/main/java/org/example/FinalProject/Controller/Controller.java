@@ -1,5 +1,6 @@
 package org.example.FinalProject.Controller;
 
+import org.example.FinalProject.Log.LogComplexOperation;
 import org.example.FinalProject.Model.*;
 import org.example.FinalProject.View.ViewConsole;
 import org.example.FinalProject.View.ViewInterface;
@@ -41,7 +42,7 @@ public class Controller {
                 oper = null;
         }
         if (oper != null) {
-            result = oper.Operation(num1, num2);
+            result = LogComplexOperation.Logging(oper, num1, num2, operation);
             ViewInterface view = new ViewConsole();
             view.output(result);
         }
