@@ -6,10 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="88ecc683-1886-4295-9aab-e20224b830f0" name="Changes" comment="Ready final project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FinalProject/Controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FinalProject/Controller/Controller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FinalProject/Model/Complex.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FinalProject/Model/Complex.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FinalProject/StartCalculate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FinalProject/StartCalculate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/FinalProject/View/ViewConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/FinalProject/View/ViewConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +78,7 @@
       <recent name="$PROJECT_DIR$/src/main/java/org/example/HW3" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.StartCalculate">
+  <component name="RunManager" selected="Application.StartToyDrow">
     <configuration name="RunTask5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.HW5.RunTask5" />
       <module name="HW" />
@@ -108,8 +105,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StartToyDrow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.ControlWork.StartToyDrow" />
+      <module name="HW" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.ControlWork.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StartToyDrow" />
         <item itemvalue="Application.StartCalculate" />
         <item itemvalue="Application.RunTask5" />
       </list>
@@ -215,7 +226,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679936002818</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Ready final project.">
+      <created>1680189485481</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1680189485481</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Ready final project.">
+      <created>1680189508363</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1680189508363</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
