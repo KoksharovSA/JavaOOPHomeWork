@@ -12,15 +12,6 @@ public class StartToyDrow {
         ToyMarket market = new ToyMarket();
         market.setToys(new WorkingWithData()
                 .Fill(Settings.dirDb));
-//        System.out.println(market.toString());
-//        Draws newDrawsRoulette = new Roulette();
-//        for (int i = 0; i < 10; i++) {
-//            String output = newDrawsRoulette.RunDraw(market.getToys()).toString();
-//            System.out.println(newDrawsRoulette.getLastTry() + " => " + output);
-//            new WorkingWithData()
-//                    .WriteData(Settings.dirLog,
-//                            output);
-//        }
         ViewMenu menu = new ViewMenu();
         menu.RunMenu(market);
     }
