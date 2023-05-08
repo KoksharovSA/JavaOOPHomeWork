@@ -6,5 +6,6 @@ import java.util.List;
 
 public interface Draws {
     public Toy RunDraw(List<Toy> toys);
+
     public float getLastTry();
 }

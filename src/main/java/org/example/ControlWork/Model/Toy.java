@@ -22,6 +22,7 @@ public abstract class Toy {
     public void setMaxOfDistributionScale(float maxOfDistributionScale) {
         this.maxOfDistributionScale = maxOfDistributionScale;
     }
+
     public float getToyDropPercentageOfTotal() {
         return toyDropPercentageOfTotal;
     }
@@ -32,13 +33,9 @@ public abstract class Toy {
 
     @Override
     public String toString() {
-        return "Toy{" +
-                "idToy=" + idToy +
-                ", name='" + name + '\'' +
-                ", toyDropRate=" + toyDropRate +
-                ", toyDropPercentageOfTotal=" + toyDropPercentageOfTotal +
-                ", maxOfDistributionScale=" + maxOfDistributionScale +
-                '}';
+        return "Игрушка " +
+                "№" + idToy +
+                " '" + name + '\'';
     }
 
     public int getIdToy() {

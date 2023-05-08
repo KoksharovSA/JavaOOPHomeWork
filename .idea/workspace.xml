@@ -4,12 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88ecc683-1886-4295-9aab-e20224b830f0" name="Changes" comment="Ready final project.">
+    <list default="true" id="88ecc683-1886-4295-9aab-e20224b830f0" name="Changes" comment="Control work, working with data.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Controller/FillData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Controller/WorkingWithData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Controller/Draws.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Controller/Draws.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Controller/Roulette.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Controller/Roulette.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Controller/WorkingWithData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Controller/WorkingWithData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Data/Log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Data/Log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Data/dbToys.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Data/dbToys.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Model/Toy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Model/Toy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Model/ToyMarket.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Model/ToyMarket.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/StartToyDrow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/StartToyDrow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ControlWork/Controller/FillData.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/View/ViewMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/ControlWork/View/ViewMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ControlWork/Controller/WorkingWithData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ControlWork/Controller/WorkingWithData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ControlWork/Model/Toy.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ControlWork/Model/Toy.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/org/example/ControlWork/StartToyDrow.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ControlWork/StartToyDrow.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/org/example/ControlWork/View/ViewMenu.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/example/ControlWork/View/ViewMenu.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,19 +69,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/KSA/GB/JAVA_OOP/HW/src/main/java/org/example/HW7&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/KSA/GB/JAVA_OOP/HW/src/main/java/org/example/ControlWork/Data",
+    "settings.editor.selected.configurable": "preferences.fileTypes"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="org.example.HW3" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/org/example/ControlWork/Data" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/HW7" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example/HW3" />
     </key>
@@ -239,8 +249,18 @@
       <option name="project" value="LOCAL" />
       <updated>1680189508363</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Control work, working with data.">
+      <created>1683516172189</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1683516172189</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -265,7 +285,8 @@
     <MESSAGE value="Ready 5 home work." />
     <MESSAGE value="Refactor 5 home work." />
     <MESSAGE value="Ready final project." />
-    <option name="LAST_COMMIT_MESSAGE" value="Ready final project." />
+    <MESSAGE value="Control work, working with data." />
+    <option name="LAST_COMMIT_MESSAGE" value="Control work, working with data." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
