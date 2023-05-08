@@ -1,17 +1,24 @@
 package org.example.ControlWork.Controller;
 
 import com.opencsv.CSVReader;
+import com.opencsv.CSVWriter;
 import org.example.ControlWork.Model.BuildingBlocks;
 import org.example.ControlWork.Model.Car;
 import org.example.ControlWork.Model.Doll;
 import org.example.ControlWork.Model.Toy;
 
+import java.io.File;
 import java.io.FileReader;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-public final class FillData {
-    public static  List<Toy> Fill(String db) {
+public class WorkingWithData {
+    public WorkingWithData() {
+    }
+
+    public List<Toy> Fill(String db) {
         try {
             List<Toy> toyList = new ArrayList<>();
             FileReader filereader = new FileReader(db);
@@ -37,4 +44,16 @@ public final class FillData {
             return null;
         }
     }
+
+    public void WriteData(String filePath, String text) {
+        try {
+            FileWriter outputfile = new FileWriter(filePath, true);
+            outputfile.append("\n" + text);
+            outputfile.close();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+
 }

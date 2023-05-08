@@ -1,0 +1,41 @@
+
+Toy{idToy=5, name='Машинка Такси', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=80.0}
+Toy{idToy=2, name='Конструктор Полесье', toyDropRate=2, toyDropPercentageOfTotal=10.0, maxOfDistributionScale=20.0}
+Toy{idToy=3, name='Кукла Barbi', toyDropRate=3, toyDropPercentageOfTotal=15.0, maxOfDistributionScale=35.0}
+Toy{idToy=5, name='Машинка Такси', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=80.0}
+Toy{idToy=6, name='Кукла Алёна', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=100.0}
+Toy{idToy=1, name='Конструктор LEGO', toyDropRate=2, toyDropPercentageOfTotal=10.0, maxOfDistributionScale=10.0}
+Toy{idToy=1, name='Конструктор LEGO', toyDropRate=2, toyDropPercentageOfTotal=10.0, maxOfDistributionScale=10.0}
+Toy{idToy=5, name='Машинка Такси', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=80.0}
+Toy{idToy=4, name='Машинка Синий трактор', toyDropRate=5, toyDropPercentageOfTotal=25.0, maxOfDistributionScale=60.0}
+Toy{idToy=4, name='Машинка Синий трактор', toyDropRate=5, toyDropPercentageOfTotal=25.0, maxOfDistributionScale=60.0}
+Toy{idToy=5, name='Машинка Такси', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=80.0}
+Toy{idToy=6, name='Кукла Алёна', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=100.0}
+Toy{idToy=5, name='Машинка Такси', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=80.0}
+Toy{idToy=6, name='Кукла Алёна', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=100.0}
+Toy{idToy=4, name='Машинка Синий трактор', toyDropRate=5, toyDropPercentageOfTotal=25.0, maxOfDistributionScale=60.0}
+Toy{idToy=4, name='Машинка Синий трактор', toyDropRate=5, toyDropPercentageOfTotal=25.0, maxOfDistributionScale=60.0}
+Toy{idToy=3, name='Кукла Barbi', toyDropRate=3, toyDropPercentageOfTotal=15.0, maxOfDistributionScale=35.0}
+Toy{idToy=2, name='Конструктор Полесье', toyDropRate=2, toyDropPercentageOfTotal=10.0, maxOfDistributionScale=20.0}
+Toy{idToy=6, name='Кукла Алёна', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=100.0}
+Toy{idToy=6, name='Кукла Алёна', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=100.0}
+Toy{idToy=2, name='Конструктор Полесье', toyDropRate=2, toyDropPercentageOfTotal=10.0, maxOfDistributionScale=20.0}
+Toy{idToy=6, name='Кукла Алёна', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=100.0}
+Toy{idToy=1, name='Конструктор LEGO', toyDropRate=2, toyDropPercentageOfTotal=10.0, maxOfDistributionScale=10.0}
+Toy{idToy=3, name='Кукла Barbi', toyDropRate=3, toyDropPercentageOfTotal=15.0, maxOfDistributionScale=35.0}
+Toy{idToy=4, name='Машинка Синий трактор', toyDropRate=5, toyDropPercentageOfTotal=25.0, maxOfDistributionScale=60.0}
+Toy{idToy=6, name='Кукла Алёна', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=100.0}
+Toy{idToy=6, name='Кукла Алёна', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=100.0}
+Toy{idToy=5, name='Машинка Такси', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=80.0}
+Toy{idToy=5, name='Машинка Такси', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=80.0}
+Toy{idToy=6, name='Кукла Алёна', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=100.0}
+Toy{idToy=2, name='Конструктор Полесье', toyDropRate=2, toyDropPercentageOfTotal=10.0, maxOfDistributionScale=20.0}
+Toy{idToy=5, name='Машинка Такси', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=80.0}
+Toy{idToy=6, name='Кукла Алёна', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=100.0}
+Toy{idToy=5, name='Машинка Такси', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=80.0}
+Toy{idToy=4, name='Машинка Синий трактор', toyDropRate=5, toyDropPercentageOfTotal=25.0, maxOfDistributionScale=60.0}
+Toy{idToy=3, name='Кукла Barbi', toyDropRate=3, toyDropPercentageOfTotal=15.0, maxOfDistributionScale=35.0}
+Toy{idToy=5, name='Машинка Такси', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=80.0}
+Toy{idToy=5, name='Машинка Такси', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=80.0}
+Toy{idToy=4, name='Машинка Синий трактор', toyDropRate=5, toyDropPercentageOfTotal=25.0, maxOfDistributionScale=60.0}
+Toy{idToy=5, name='Машинка Такси', toyDropRate=4, toyDropPercentageOfTotal=20.0, maxOfDistributionScale=80.0}
